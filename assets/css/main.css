@@ -1,0 +1,226 @@
+/********************* View prot ************************/
+#viewport{
+    background-color: #0D1518;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/***************** Main menu Dropdown ********************/
+.dropbtn {
+    background-color: #0D1518;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFAE00;
+    color: #0D1518;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+/*    border-radius: 0px 10px 0px 10px;*/
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    color: #FFAE00;
+    background-color: gray;
+/*    border-radius: 0px 10px 0px 10px;*/
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    
+}
+
+.dropdown:hover .dropbtn {
+    color: #FFAE00;
+    background-color: #0D1518;
+/*    transition: .3s;*/
+}
+
+.main-menu{
+    padding-top: 60px;
+    position: relative;
+}
+
+/************** Viewpor image and text *********************/
+.viewport-img{
+    
+}
+.viewport-img img{
+   
+    position: absolute;
+    top: -60px;
+/*    left: 10px;*/
+}
+
+.viewport-text{
+    padding-top: 200px;
+}
+.viewport-text h5{
+    color: white;
+    font-size: 28px;
+    padding-right: 105px;
+    float: right;
+    line-height: 40px;
+    padding-bottom: 15px;
+}
+.viewport-text h5 span{
+    color: #FFAE00;
+}
+
+.viewport-icon{
+    
+}
+.viewport-icon ul li{
+    list-style: none;
+    margin-left: -52px; 
+}
+
+.viewport-icon ul li a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    float: left;
+    background-color: #0D1518;
+    margin-left: 15px;
+    border: 1px solid #fff;
+    border-radius: 10px 0px 10px 0px;
+    
+    height: 55px;
+    width: 50px;
+    text-align: center;
+    padding-top: 12px;
+}
+.viewport-icon ul li a:hover{
+    background-color: #FFAE00;
+    transition: .3s;
+    color: #0D1518;
+}
+/********************* End View prot ************************/
+
+/*********************** About Section *****************************/
+
+#about .container{
+    padding-bottom: 108px;
+}
+.about-heading{
+    padding-top: 105px;
+    
+}
+
+.about-heading h1{
+    color: #FFAE00;
+    position: relative;
+    padding-bottom: 30px;
+}
+.about-heading h1::before{
+    bottom: 0;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    width: 80px;
+    content: "";
+    background: #FFAE00;
+    margin-left: -40px;
+}
+
+.brif-about, .skills{
+   padding-top: 46px;
+}
+.brif-about h3, .skills h3{
+    color: #FFAE00;
+    position: relative;
+    padding-bottom: 15px;
+}
+.brif-about h3::after, .skills h3::after{
+    bottom: 0;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 30px;
+    content: "";
+    background: #FFAE00;
+}
+
+.brif-about p{
+    font-size: 15px;
+    padding-top: 40px;
+}
+.brif-about p:last-child{
+    padding-top: 0px;
+}
+
+.about-progress-bar h5{
+    line-height: 40px;
+}
+.first-bar-text{
+    padding-top: 30px;
+}
+
+.download-cv{
+    padding-top: 40px;
+}
+.download-cv a{
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #FFAE00;
+}
+.download-cv a i{
+    color: #fff;
+    padding: 10px;
+    margin-right: 10px;
+    border-right: 1px solid #fff;
+}
+
+/**************** Service area *********************/
+#service-area{
+    background-color: #1D1C1C;
+    padding-top: 87px;
+    padding-bottom: 85px;
+}
+#service-area i,h4{
+    color: #fff;
+    text-align: center;
+}
+#service-area i{
+    color: white;
+    display: block;
+    background-color: #FFAE00;
+    margin-left: 15px;
+    border: 0px solid #fff;
+    border-radius: 10px 0px 10px 0px;
+    height: 80px;
+    width: 75px;
+    text-align: center;
+    padding-top: 25px;
+    margin-left: 40%;
+}
+
+#service-area h4{
+    padding-top: 35px;
+}
+#service-area p{
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
