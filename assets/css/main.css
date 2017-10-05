@@ -224,3 +224,142 @@
     text-align: center;
     padding-top: 20px;
 }
+
+/************* My Work Area ********************/
+#work-area{
+    padding-top: 100px;
+    padding-bottom: 125px;
+}
+
+.work-heading h2{
+    display: block;
+    text-align: center;
+    color: #FFAE00;
+    position: relative;
+}
+.work-heading h2::after{
+    bottom: -30px;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    width: 180px;
+    content: "";
+    background: #FFAE00;
+    margin-left: -90px;
+}
+.work-box-top{
+    padding-top: 80px;
+}
+.work-box-1, .work-box-2, 
+.work-box-3, .work-box-4{
+    text-align: center;
+    height: 100%;
+    padding-top: 70px;
+    position: relative;
+}
+/*
+.work-box-1:hover, .work-box-2:hover, 
+.work-box-3:hover, .work-box-4:hover{
+    background-color: #FFAE00;
+    color: #fff;
+    
+}
+*/
+.box:hover{
+    background-color: #FFAE00;
+    color: #fff;
+}
+.box h4{
+    color:#333;
+    
+}
+
+.box:hover h4{
+    color:#fff;
+}
+
+.work-box-1 i, .work-box-2 i, 
+.work-box-3 i, .work-box-4 i{
+    color: #FFAE00;
+    display: block;
+    background-color: #fff;
+    margin-left: 15px;
+    border: 1px solid #DADADA;
+    border-radius: 10px 0px 10px 0px;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    padding-top: 25px;
+    margin-left: 40%;
+    
+}
+.work-box-1 h4, .work-box-2 h4, 
+.work-box-3 h4, .work-box-4 h4{
+    padding-top: 55px;
+/*    color: #000;*/
+}
+
+.work-box-1 p, .work-box-2 p, 
+.work-box-3 p, .work-box-4 p{
+    padding: 30px 25px;
+    font-size: 14px;
+}
+.work-box-1, .work-box-2{
+    border-bottom: 1px solid #F4F4F4;
+}
+.work-box-1, .work-box-3{
+    border-right: 1px solid #F4F4F4;
+}
+
+.work-circle{
+    border:2px solid #EEEEEE;
+    background-color: #FFFFFF;
+    height: 80px;
+    /* border-radius 50% will make it fully rounded. */
+    border-radius: 50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius: 50%;
+    width: 80px;
+    margin-top: -420px;
+/*    z-index: 1;*/
+    position: absolute;
+}
+
+.work-circle-2{
+    position: absolute;
+    
+    border:2px solid #FFAE00;
+    background-color: #FFAE00;
+    height: 20px;
+    /* border-radius 50% will make it fully rounded. */
+    border-radius: 50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius: 50%;
+    width: 20px;
+    margin-top: -390px;
+/*    z-index: 1;*/
+    position: absolute;
+}
+
+/*************** Plan Section **********************/
+#plan{
+    background-color: #1C1C1C;
+}
+.plan-box{
+    float: left;
+    text-align: center;
+    padding: 107px 67px;
+    display: inline-block;
+}
+
+.plan-box i{
+    color: #fff;
+    padding: 25px;
+    background-color: #FFAE00;
+    border-radius: 15px 0px 15px 0px;
+}
+
+.plan-box h4{
+    color: #fff;
+    padding-top: 35px;
+}
