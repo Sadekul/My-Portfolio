@@ -350,48 +350,133 @@
     padding-top: 35px;
 }
 
-/********************** Porthfolio Section ******************************/
+/********************** Portfolio Section ******************************/
 
-#porthfolio{
+#portfolio{
     padding-top: 107px;
-    padding-bottom: 55px;
+    padding-bottom: 65px;
 }
-.porthfolio-heading{
+.portfolio-heading{
     
 }
-.porthfolio-heading h2{
+.portfolio-heading h2{
     color: #FFAE00;
     position: relative;
 }
-.porthfolio-heading h2::after{
+.portfolio-heading h2::after{
     bottom: -53px;
     height: 2px;
-    left: 38%;
+    left: 40%;
     position: absolute;
     width: 110px;
     content: "";
     background: #FFAE00;
-/*    margin-left: -40px;*/
 }
-.porthfolio-heading h6{
+.portfolio-heading h6{
     line-height: 20px;
 }
-.porthfolio-heading ul li{
+.portfolio-heading ul li{
     padding-top: 35px;
-    padding-left: 40px;
     float: left;
     list-style: none;
     display: inline-block;
-/*    line-height: 25px;*/
+    padding-bottom: 55px;
 }
-.porthfolio-heading ul li a{
+.portfolio-heading ul li a{
+    padding: 6px 15px;
     text-decoration: none;
     color: #000;
-    text-transform: uppercase;
 }
 
-.porthfolio-heading ul li a:hover{
+.portfolio-heading ul li a:hover{
+    color: #fff;
     background-color: #FFAE00;
-    padding: 10px 10px;
     border-radius: 10px 0px 10px 0px;
+}
+
+
+.portfolio-project, .hover-background{
+    
+}
+.portfolio-project{
+    position: relative;
+}
+.portfolio-project img{
+    width: 100%;
+}
+.hover-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.hover-background-border{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 90%;
+    height: 90%;
+    padding: -20px;
+/*    z-index: 1;*/
+}
+.hover-background:hover{
+    background-color: #734E00;
+    opacity: .5;
+    border: 2px solid #000;
+
+}
+.hover-background-border:hover{
+    background-color: #734E00;
+    opacity: .5;
+    border: 2px solid #000;
+}
+
+.bottom-portfolio-box{
+    padding-top: 30px;
+    padding-bottom: 65px;
+}
+
+.portfolio-btn{
+    
+}
+.portfolio-btn p{
+    padding-bottom: 10px;
+}
+.portfolio-btn button{
+    height: 40px;
+    width: 135px;
+    border: 0px;
+    margin: 0px 15px;
+    background-color: #FFAE00;
+    border-radius: 15px 0px 15px 0px;
+}
+
+.portfolio-btn button a, i{
+    text-decoration: none;
+    color: #fff;
+}
+
+/**************** Happy Clients Section ****************************/
+
+#happy-clients{
+    padding-top: 145px;
+    padding-bottom: 105px;
+    background-color: #46381B;
+}
+.clients-box{
+    text-align: center;
+    color: #fff;
+}
+.clients-box h5{
+    padding-top: 30px;
+    line-height: 30px;
+}
+.clients-box i{
+    height: 65px;
+    width: 65px;
+    background-color: #FFAE00;
+    border-radius: 15px 0px 15px 0px;
+    text-align: center;
+    padding-top: 15px;
 }
