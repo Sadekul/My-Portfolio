@@ -134,12 +134,12 @@
 .about-heading h1::before{
     bottom: 0;
     height: 2px;
-    left: 50%;
+    left: 46%;
     position: absolute;
     width: 80px;
     content: "";
     background: #FFAE00;
-    margin-left: -40px;
+/*    margin-left: -40px;*/
 }
 
 .brif-about, .skills{
@@ -240,46 +240,37 @@
 .work-heading h2::after{
     bottom: -30px;
     height: 2px;
-    left: 50%;
+    left: 44%;
     position: absolute;
     width: 180px;
     content: "";
     background: #FFAE00;
-    margin-left: -90px;
+/*    margin-left: -90px;*/
 }
 .work-box-top{
     padding-top: 80px;
 }
-.work-box-1, .work-box-2, 
-.work-box-3, .work-box-4{
+.work-box{
     text-align: center;
     height: 100%;
     padding-top: 70px;
     position: relative;
 }
-/*
-.work-box-1:hover, .work-box-2:hover, 
-.work-box-3:hover, .work-box-4:hover{
-    background-color: #FFAE00;
-    color: #fff;
-    
-}
-*/
-.box:hover{
+
+.work-box:hover{
     background-color: #FFAE00;
     color: #fff;
 }
-.box h4{
+.work-box h4{
     color:#333;
     
 }
 
-.box:hover h4{
+.work-box:hover h4{
     color:#fff;
 }
 
-.work-box-1 i, .work-box-2 i, 
-.work-box-3 i, .work-box-4 i{
+.work-box i{
     color: #FFAE00;
     display: block;
     background-color: #fff;
@@ -293,21 +284,18 @@
     margin-left: 40%;
     
 }
-.work-box-1 h4, .work-box-2 h4, 
-.work-box-3 h4, .work-box-4 h4{
+.work-box h4{
     padding-top: 55px;
-/*    color: #000;*/
 }
 
-.work-box-1 p, .work-box-2 p, 
-.work-box-3 p, .work-box-4 p{
+.work-box p{
     padding: 30px 25px;
     font-size: 14px;
 }
-.work-box-1, .work-box-2{
+.box-1, .box-2{
     border-bottom: 1px solid #F4F4F4;
 }
-.work-box-1, .work-box-3{
+.box-1, .box-3{
     border-right: 1px solid #F4F4F4;
 }
 
@@ -321,7 +309,6 @@
     -webkit-border-radius: 50%;
     width: 80px;
     margin-top: -420px;
-/*    z-index: 1;*/
     position: absolute;
 }
 
@@ -337,7 +324,6 @@
     -webkit-border-radius: 50%;
     width: 20px;
     margin-top: -390px;
-/*    z-index: 1;*/
     position: absolute;
 }
 
@@ -362,4 +348,50 @@
 .plan-box h4{
     color: #fff;
     padding-top: 35px;
+}
+
+/********************** Porthfolio Section ******************************/
+
+#porthfolio{
+    padding-top: 107px;
+    padding-bottom: 55px;
+}
+.porthfolio-heading{
+    
+}
+.porthfolio-heading h2{
+    color: #FFAE00;
+    position: relative;
+}
+.porthfolio-heading h2::after{
+    bottom: -53px;
+    height: 2px;
+    left: 38%;
+    position: absolute;
+    width: 110px;
+    content: "";
+    background: #FFAE00;
+/*    margin-left: -40px;*/
+}
+.porthfolio-heading h6{
+    line-height: 20px;
+}
+.porthfolio-heading ul li{
+    padding-top: 35px;
+    padding-left: 40px;
+    float: left;
+    list-style: none;
+    display: inline-block;
+/*    line-height: 25px;*/
+}
+.porthfolio-heading ul li a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.porthfolio-heading ul li a:hover{
+    background-color: #FFAE00;
+    padding: 10px 10px;
+    border-radius: 10px 0px 10px 0px;
 }
