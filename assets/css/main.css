@@ -314,7 +314,6 @@
 
 .work-circle-2{
     position: absolute;
-    
     border:2px solid #FFAE00;
     background-color: #FFAE00;
     height: 20px;
@@ -324,7 +323,6 @@
     -webkit-border-radius: 50%;
     width: 20px;
     margin-top: -390px;
-    position: absolute;
 }
 
 /*************** Plan Section **********************/
@@ -479,4 +477,135 @@
     border-radius: 15px 0px 15px 0px;
     text-align: center;
     padding-top: 15px;
+}
+
+/********************** Client Feedback ***********************************/
+
+#client-feedback{
+    padding: 105px 0px;
+}
+
+.client-heading{
+    position: relative;
+}
+.client-heading h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFAE00;
+}
+.client-heading h1::after{
+    bottom: -20px;
+    height: 2px;
+    left: 43%;
+    position: absolute;
+    width: 165px;
+    content: "";
+    background: #FFAE00;
+}
+
+
+
+/***************************** Contact Form ***************************/
+#contact-form{
+    background-color: #4D4229;
+    padding-top: 95px;
+    padding-bottom: 130px;
+}
+
+.contact-heading h1{
+    position: relative;
+    text-align: center;
+    color: #FFAE00;
+    text-transform: uppercase;
+}
+.contact-heading h1::after{
+    position: absolute;
+    bottom: -20px;
+    height: 2px;
+    left: 45%;
+    width: 110px;
+    content: "";
+    background-color: #FFAE00;
+    
+}
+
+.contact-box{
+    padding-top: 5px;
+}
+
+
+.input-field{
+    border: 1px solid #fff;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 15px;
+    background: none;
+    color: #fff;
+    padding-left: 70px;
+}
+
+.input-user{
+    position: relative;
+}
+
+.input-icon {
+    position: absolute;
+    top: 5px;
+    left: 15px;
+}
+
+.input-icon i{
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    padding-top: 14px;
+    background-color: #FFAE00;
+}
+
+.left-input{
+    padding-top: 60px;
+}
+.text-area{
+    padding-top: 65px;
+}
+
+.text-area textarea{
+    height: 140px;
+    width: 100%;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+
+.text-area button{
+    padding: 0px;
+    border: 0px;
+}
+.text-area a button {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    height: 60px;
+    width: 100%;
+    margin-top: 14px;
+    background-color: #FFAE00;
+    font-size: 25px;
+    font-weight: bold;
+}
+.text-area a button:hover{
+    color: #4D4229;
+}
+/********************** Footer Section **********************************/
+#footer{
+    background-color: #141313;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+#footer p{
+    text-align: center;
+    color: #fff;
 }
