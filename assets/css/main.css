@@ -416,8 +416,9 @@
     width: 90%;
     height: 90%;
     padding: -20px;
-/*    z-index: 1;*/
+
 }
+
 .hover-background:hover{
     background-color: #734E00;
     opacity: .5;
@@ -427,7 +428,9 @@
 .hover-background-border:hover{
     background-color: #734E00;
     opacity: .5;
-    border: 2px solid #000;
+    border: 2px solid #FFAE00;
+    
+    
 }
 
 .bottom-portfolio-box{
