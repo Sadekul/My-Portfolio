@@ -72,7 +72,7 @@
 }
 
 .viewport-text{
-    padding-top: 200px;
+    padding-top: 150px;
 }
 .viewport-text h5{
     color: white;
@@ -170,6 +170,9 @@
 
 .about-progress-bar h5{
     line-height: 40px;
+}
+.about-progress-bar span{
+    color: #FFAE00;
 }
 .first-bar-text{
     padding-top: 30px;
